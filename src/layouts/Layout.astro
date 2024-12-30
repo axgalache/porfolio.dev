@@ -19,6 +19,20 @@ const { description, title } = Astro.props
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Porfolio de Alejandro Galache - Desarrollador y Programador Web" />
+    <meta property="og:description" content="Desarrollador Web Fullstack de Salamanca, España. Especializado en el desarrollo de aplicaciones web y móviles (Android/iOS)." />
+    <meta property="og:image" content="https://axgalache.me/me2.jpg" />
+    <meta property="og:url" content="https://axgalache.me" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Tags (optional, for better Twitter support) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Porfolio de Alejandro Galache - Desarrollador y Programador Web" />
+    <meta name="twitter:description" content="Desarrollador Web Fullstack de Salamanca, España. Especializado en el desarrollo de aplicaciones web y móviles (Android/iOS)." />
+    <meta name="twitter:image" content="https://axgalache.me/me2.jpg" />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
