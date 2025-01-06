@@ -6,6 +6,8 @@ import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 import Flutter from "./icons/Flutter.astro"
 import NodeJS from "./icons/NodeJS.astro"
+import Python from "./icons/Python.astro"
+
 
 const TAGS = {
   NEXT: {
@@ -28,6 +30,11 @@ const TAGS = {
     class: "bg-[#273623] text-white",
     icon: NodeJS,
   },
+  PYTHON: {
+    name: "Python",
+    class: "bg-[#827331] text-white",
+    icon: Python,
+  },
 }
 const PROJECTS = [
   {
@@ -37,7 +44,7 @@ const PROJECTS = [
     link: "https://lf.ser-inclusivo.com/",
     enquery: "mailto:axgalache@gmail.com?subject=Solicitud de usuario de prueba para Ser Inclusivo&body=Hola, me gustaría solicitar un usuario de prueba para la app de Ser Inclusivo.",
     image: "/projects/ser-inclusivo.png",
-    tags: [TAGS.NEXT, TAGS.TAILWIND, TAGS.NODE],
+    tags: [TAGS.NEXT, TAGS.PYTHON, TAGS.TAILWIND, TAGS.NODE],
   },
   {
     title: "Kenko - App móvil de salud",
